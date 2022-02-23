@@ -1,0 +1,123 @@
+.features_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.features_container .features_section{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features_container .features_section .features_heading{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 450px;
+    margin-top: 40px;
+}
+
+.features_container .features_section .features_heading h1{
+    font-size: 28px;
+    color: #130f40;
+    margin-bottom: 10px;
+}
+
+
+.features_container .features_section .features_heading p{
+    font-size: 13px;
+    letter-spacing: .8px;
+}
+
+/* features button */
+.features_container .features_section .features_btn{
+    border: 1px solid lightgray;
+    margin-top: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.features_container .features_section .features_btn button{
+    display: block;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    width: 44%;
+    color: #130f40;
+}
+.features_container .features_section .features_btn .extra{
+    background-color: #130f40;
+    color: #fff;
+}
+
+
+/* features cards */
+.features_container .features_section .features_cards{
+    /* border: 2px solid red; */
+    width: 560px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.features_container .features_section .features_cards .fcards_one{
+    padding: 10px;
+    min-width: 250px;
+    box-shadow: 0 0 7px 4px rgba(0,0,0,.1);
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: -10px;
+}
+
+
+
+.features_container .features_section .features_cards .fcards_one .month_data{
+    background-color: rgba(204, 236, 248, 0.644);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.features_container .features_section .features_cards .fcards_one .month_data h1{
+margin-bottom: 10px;
+}
+
+.features_container .features_section .features_cards .fcards_one ul{
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+
+.features_container .features_section .features_cards .fcards_one ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: .8px;
+    color: rgba(182, 182, 182, 0.76);
+}
+
+
+.features_container .features_section .features_cards .fcards_one button{
+    width: 180px;
+    background-color: #ff9f43;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius:20px;
+    color: rgba(255, 255, 255, 0.986);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: .8px;
+}
